@@ -6,7 +6,7 @@ ASM_FILE="laco"
 # Montar o código fonte ASM
 nasm -f elf64 -o ${ASM_FILE}.o ${ASM_FILE}.asm
 if [ $? -ne 0 ]; then
-    echo "Erro ao montar o arquivo ${ASM_FILE}.asm"
+    echo "Erro na montagem do arquivo ${ASM_FILE}.asm"
     exit 1
 fi
 
@@ -20,6 +20,6 @@ fi
 # Executar o programa
 ./${ASM_FILE}
 if [ $? -ne 0 ]; then
-    echo "Erro ao executar o programa ${ASM_FILE}"
+    echo "Erro na execução do programa ${ASM_FILE}"
     exit 1
 fi
