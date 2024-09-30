@@ -4,6 +4,6 @@
 
 > #### Tarefas
 >
-> - Tarefa 1 - (Pré-processador) - Construa macros para simular o comando for em C.
-> - Tarefa 2 - (Montador NASM) - Exemplifique como debugar um programa em NASM usando um software de debug
+> 1. (Pré-processador) - Construa macros para simular o comando for em C.
+> 2. (Montador NASM) - Exemplifique como debugar um programa em NASM usando um software de debug
 >
