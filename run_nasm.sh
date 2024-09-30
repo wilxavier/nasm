@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Nome do arquivo ASM sem a extensão
-ASM_FILE="loop"
+ASM_FILE="laco"
 
 # Montar o código fonte ASM
 nasm -f elf64 -o ${ASM_FILE}.o ${ASM_FILE}.asm
